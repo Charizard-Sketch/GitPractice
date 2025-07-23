@@ -14,6 +14,8 @@ struct ContentView: View {
                 .foregroundColor(.pink)
             Text("My favorite animals are also pink")
                 .foregroundColor(.pink)
+            Text("Axolotls are very cute")
+                .foregroundColor(.pink)
                  Image("Axolotl")
                       .resizable()
                       .aspectRatio(contentMode: .fit)
