@@ -9,15 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
+        VStack(alignment: .leading, spacing: 20.0) {
             Text("My favorite color is pink!")
                 .foregroundColor(.pink)
             Text("My favorite animals are also pink")
                 .foregroundColor(.pink)
-        }
+                 Image("Axolotl")
+                      .resizable()
+                      .aspectRatio(contentMode: .fit)
+                      .cornerRadius(15)        }
         .padding()
     }
 }
